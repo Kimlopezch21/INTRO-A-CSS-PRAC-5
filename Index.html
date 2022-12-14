@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicacion CSS a HTML</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .d2{
+            background-color: rgb(227, 179, 255); 
+            color:blue;
+            border: 1px;
+            border-style: solid;
+            border-color: black;
+            margin-bottom: 20px;
+            margin-left: 200px;
+            margin-right: 200px;
+            padding: 10px;
+        }
+
+        .d2_p1{
+            text-align: center;
+        }
+
+        .d2_sp1{
+            color: red;
+        }
+
+        .d2_p2{
+            text-align: center;
+            background-color: silver;
+        }
+
+        .d2_p3{
+            text-align: right;
+        }
+
+        .d2_sp2{
+            color: red;
+        }
+
+        .d2_p4{
+            text-align: center;
+            background-color: silver;
+        }
+    </style>
+</head>
+<body>
+    <!--Lineal-->
+    <div style="background-color: aqua; color:blue; border: 1px; border-style: solid; border-color: black;
+     margin-bottom: 20px; margin-left: 200px; margin-right: 200px; padding: 10px;">
+        <p style="text-align: center;"> Texto <span style="color: red;"> centrado. </span> </p>
+        <p style="text-align: center; background-color: silver;"> Texto centrado sobre fondo de color plata. </p>
+        <p style="text-align: right;"> <strong> Texto <span style="color: red;"> alineado </span> a la derecha. </strong> </p>
+        <p style="text-align: center; background-color: silver;"> Otro texto centrado sobre fondo de color plata. </p>
+    </div>
+    <br>
+
+    <!--Interna-->
+    <div class="d2">
+        <p class="d2_p1"> Texto <span class="d2_sp1"> centrado. </span></p>
+        <p class="d2_p2"> Texto centrado sobre fondo de color plata. </p>
+        <p class="d2_p3"> <strong> Texto <span class="d2_sp2"> alineado </span> a la derecha. </strong> </p>
+        <p class="d2_p4"> Otro texto centrado sobre fondo de color plata.</p>
+    </div>
+    <br>
+
+    <!--Externa-->
+    <div class="d3">
+        <p class="d3_p1"> Texto <span class="d3_sp1"> centrado. </span></p>
+        <p class="d3_p2"> Texto centrado sobre fondo de color plata. </p>
+        <p class="d3_p3"> <strong> Texto <span class="d3_sp2"> alineado </span> a la derecha. </strong> </p>
+        <p class="d3_p4"> Otro texto centrado sobre fondo de color plata.</p>
+    </div>
+
+</body>
+</html>

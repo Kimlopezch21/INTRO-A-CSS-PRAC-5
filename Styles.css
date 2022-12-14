@@ -1,0 +1,37 @@
+.d3{
+    background-color: rgb(235, 148, 202); 
+    color:blue;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 10px;
+}
+
+.d3_p1{
+    text-align: center;
+}
+
+.d3_sp1{
+    color: red;
+}
+
+.d3_p2{
+    text-align: center;
+    background-color: silver;
+}
+
+.d3_p3{
+    text-align: right;
+}
+
+.d3_sp2{
+    color: red;
+}
+
+.d3_p4{
+    text-align: center;
+    background-color: silver;
+}
